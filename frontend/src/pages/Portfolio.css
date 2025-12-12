@@ -509,7 +509,7 @@
    ========================================= */
 
 .main-content {
-  margin-left: 500px;
+  margin-left: 450px;
   flex: 1;
   padding: 2rem;
   overflow-y: hidden;
@@ -1139,9 +1139,10 @@
   }
 
   .contact-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 }
+
 
 @media (max-width: 768px) {
   .portfolio-layout {
